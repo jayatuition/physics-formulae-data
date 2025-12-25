@@ -1,0 +1,2838 @@
+{
+  "class12": [
+    {
+      "title": "Electrostatics",
+      "formulas": [
+        {
+          "name": "1. Coulomb's Law",
+          "equations": [
+            "F = (1/4πε₀) × (q₁q₂/r²)",
+            "1/4πε₀ = 9 × 10⁹"
+          ]
+        },
+        {
+          "name": "2. Coulomb's Law in Media",
+          "equations": [
+            "F = (1/4πε₀k) × (q₁q₂/r²)"
+          ]
+        },
+        {
+          "name": "3. Vector Sum of Forces",
+          "equations": [
+            "F = √(F₁² + F₂² + 2F₁F₂cosθ)"
+          ]
+        },
+        {
+          "name": "4. Electric Field",
+          "equations": [
+            "E = F/q",
+            "E = (1/4πε₀) × (Q/r²)"
+          ]
+        },
+        {
+          "name": "5. Linear Charge Density",
+          "equations": [
+            "λ = q/l"
+          ]
+        },
+        {
+          "name": "6. Surface Charge Density",
+          "equations": [
+            "σ = q/A"
+          ]
+        },
+        {
+          "name": "7. Volume Charge Density",
+          "equations": [
+            "ρ = q/V"
+          ]
+        },
+        {
+          "name": "8. Dipole Moment",
+          "equations": [
+            "p = 2aq"
+          ]
+        },
+        {
+          "name": "9. Axial Electric Field",
+          "equations": [
+            "E_axial = (1/4πε₀) × (2pr)/(r²-a²)²",
+            "E_axial = (1/4πε₀) × (2p/r³)"
+          ]
+        },
+        {
+          "name": "10. Equatorial Field",
+          "equations": [
+            "E_equa = (1/4πε₀) × p/(r²+a²)^(3/2)",
+            "E_equa = (1/4πε₀) × (p/r³)"
+          ]
+        },
+        {
+          "name": "11. Torque",
+          "equations": [
+            "τ = pEsinθ"
+          ]
+        },
+        {
+          "name": "12. Electric Flux",
+          "equations": [
+            "φ = E·dS"
+          ]
+        },
+        {
+          "name": "13. Gauss Law",
+          "equations": [
+            "φ = ∫E·dS = q/ε₀",
+            "ε₀ = 8.85 × 10⁻¹²"
+          ]
+        },
+        {
+          "name": "14. Application of Gauss Law - Long Straight Wire",
+          "equations": [
+            "E = λ/(2πε₀r)"
+          ]
+        },
+        {
+          "name": "14. Application of Gauss Law - Infinite Plane Sheet",
+          "equations": [
+            "E = σ/(2ε₀)"
+          ]
+        },
+        {
+          "name": "14. Application of Gauss Law - Thin Spherical Shell",
+          "equations": [
+            "E = (1/4πε₀) × (Q/r²) for r > R",
+            "E = (1/4πε₀) × (Q/R²) for r = R",
+            "E = 0 for r < R"
+          ]
+        },
+        {
+          "name": "15. Solid Sphere",
+          "equations": [
+            "E = (1/4πε₀) × (Q/r²) for r > R",
+            "E = (1/4πε₀) × (Q/R²) for r = R",
+            "E = (1/4πε₀) × (Qr/R³) for r < R",
+            "Q = (4/3)πR³ρ"
+          ]
+        },
+        {
+          "name": "16. Electric Potential",
+          "equations": [
+            "V = W/q",
+            "V = (1/4πε₀) × (Q/r)"
+          ]
+        },
+        {
+          "name": "17. Electric Potential Dipole",
+          "equations": [
+            "V = (1/4πε₀) × (pcosθ/r²)"
+          ]
+        },
+        {
+          "name": "18. Field and Potential",
+          "equations": [
+            "E = -dV/dr",
+            "V = -∫E·dr"
+          ]
+        },
+        {
+          "name": "19. Potential Energy",
+          "equations": [
+            "U = (1/4πε₀) × (q₁q₂/r)"
+          ]
+        },
+        {
+          "name": "20. P.E. of Dipole",
+          "equations": [
+            "U = -pE(cosθ₂ - cosθ₁)"
+          ]
+        },
+        {
+          "name": "21. P.E. of Dipole (Vector Form)",
+          "equations": [
+            "U = -p·E"
+          ]
+        },
+        {
+          "name": "22. Capacitor",
+          "equations": [
+            "C = Q/V"
+          ]
+        },
+        {
+          "name": "23. Capacitance of Spherical Conductor",
+          "equations": [
+            "C = 4πε₀R"
+          ]
+        },
+        {
+          "name": "24. Parallel Plate Capacitor",
+          "equations": [
+            "C = ε₀A/d"
+          ]
+        },
+        {
+          "name": "25. Spherical Capacitor",
+          "equations": [
+            "C = 4πε₀(ab)/(b-a)"
+          ]
+        },
+        {
+          "name": "26. Cylindrical Capacitor",
+          "equations": [
+            "C = 2πε₀l/log_e(b/a)"
+          ]
+        },
+        {
+          "name": "27. Series Combination",
+          "equations": [
+            "1/C = 1/C₁ + 1/C₂ + 1/C₃ + ..."
+          ]
+        },
+        {
+          "name": "28. Parallel Combination",
+          "equations": [
+            "C = C₁ + C₂ + C₃ + ..."
+          ]
+        },
+        {
+          "name": "29. Energy Stored in Capacitor",
+          "equations": [
+            "U = (1/2)CV²",
+            "U = (1/2)QV",
+            "U = Q²/(2C)"
+          ]
+        },
+        {
+          "name": "30. Energy Density",
+          "equations": [
+            "u = (1/2)ε₀E²",
+            "u = σ²/(2ε₀)"
+          ]
+        },
+        {
+          "name": "31. Capacitor Filled with Dielectric",
+          "equations": [
+            "C = ε₀kA/d"
+          ]
+        },
+        {
+          "name": "32. Partially Filled Dielectric",
+          "equations": [
+            "C = ε₀A/(d-t + t/k)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Current Electricity",
+      "formulas": [
+        {
+          "name": "1. Current",
+          "equations": [
+            "i = q/t",
+            "i = neAv_d"
+          ]
+        },
+        {
+          "name": "2. Ohm's Law",
+          "equations": [
+            "R = V/I",
+            "R = ρ(l/A)"
+          ]
+        },
+        {
+          "name": "3. Current Density",
+          "equations": [
+            "j = I/A",
+            "j = nev_d",
+            "j = σE"
+          ]
+        },
+        {
+          "name": "4. Mobility",
+          "equations": [
+            "μ = v_d/E",
+            "μ = eτ/m"
+          ]
+        },
+        {
+          "name": "5. Temperature Coefficient",
+          "equations": [
+            "α = ΔR/(R₁ΔT)",
+            "R_t = R₀(1 + αΔT)"
+          ]
+        },
+        {
+          "name": "6. Resistance in Series",
+          "equations": [
+            "R = R₁ + R₂ + R₃ + ..."
+          ]
+        },
+        {
+          "name": "7. Resistance in Parallel",
+          "equations": [
+            "1/R = 1/R₁ + 1/R₂ + 1/R₃ + ..."
+          ]
+        },
+        {
+          "name": "8. Current Division",
+          "equations": [
+            "I₁ = IR₂/(R₁+R₂)",
+            "I₂ = IR₁/(R₁+R₂)"
+          ]
+        },
+        {
+          "name": "9. E.M.F.",
+          "equations": [
+            "ξ = W/q"
+          ]
+        },
+        {
+          "name": "10. Terminal Potential Difference",
+          "equations": [
+            "V = ξ - ir"
+          ]
+        },
+        {
+          "name": "11. Internal Resistance",
+          "equations": [
+            "r = R[(ξ-V)/V]"
+          ]
+        },
+        {
+          "name": "12. Cells in Series",
+          "equations": [
+            "ξ = ξ₁ + ξ₂",
+            "r = r₁ + r₂"
+          ]
+        },
+        {
+          "name": "13. Cells in Parallel",
+          "equations": [
+            "ξ/r_eq × r/r_eq = ξ₁/r₁ + ξ₂/r₂",
+            "1/r_eq = 1/r₁ + 1/r₂"
+          ]
+        },
+        {
+          "name": "14. n Cells in Series",
+          "equations": [
+            "I = nξ/(R+nr)"
+          ]
+        },
+        {
+          "name": "15. m Cells in Parallel",
+          "equations": [
+            "I = mξ/(mR+r)"
+          ]
+        },
+        {
+          "name": "16. Mixed Grouping",
+          "equations": [
+            "I = mnξ/(mR+nr)"
+          ]
+        },
+        {
+          "name": "17. For Maximum Current",
+          "equations": [
+            "mR + nr = 0"
+          ]
+        },
+        {
+          "name": "18. Power",
+          "equations": [
+            "P = VI",
+            "P = I²R",
+            "P = V²/R"
+          ]
+        },
+        {
+          "name": "19. Heating Effect",
+          "equations": [
+            "H = I²Rt"
+          ]
+        },
+        {
+          "name": "20. Kirchhoff's Laws",
+          "equations": [
+            "∑I = 0 (Junction law)",
+            "∑ξ + ∑iR = 0 (Loop law)"
+          ]
+        },
+        {
+          "name": "21. Meter Bridge",
+          "equations": [
+            "P/Q = R/X",
+            "P/Q = l/(100-l)"
+          ]
+        },
+        {
+          "name": "22. Potentiometer",
+          "equations": [
+            "ξ₁/ξ₂ = l₁/l₂",
+            "ξ₁/ξ₂ = (l₁+l₂)/(l₁-l₂)"
+          ]
+        },
+        {
+          "name": "23. Internal Resistance (Potentiometer)",
+          "equations": [
+            "r = (l₁/l₂ - 1)R"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Magnetics",
+      "formulas": [
+        {
+          "name": "1. Biot-Savart Law",
+          "equations": [
+            "dB = (μ₀/4π) × (idlsinθ/r²)",
+            "μ₀ = 4π × 10⁻⁷"
+          ]
+        },
+        {
+          "name": "2. Magnetic Field due to Straight Conductor",
+          "equations": [
+            "B = (μ₀I/4πa)(sinϕ₁ + sinϕ₂)"
+          ]
+        },
+        {
+          "name": "3. Infinite Conductor",
+          "equations": [
+            "B = μ₀I/(2πa)"
+          ]
+        },
+        {
+          "name": "4. Magnetic Field Circular Loop",
+          "equations": [
+            "B = μ₀I/(2r)"
+          ]
+        },
+        {
+          "name": "5. Axial Point of Circular Loop",
+          "equations": [
+            "B = μ₀Ia²/[2(r²+a²)^(3/2)]"
+          ]
+        },
+        {
+          "name": "6. Ampere's Circuital Law",
+          "equations": [
+            "∫B·dl = μ₀I"
+          ]
+        },
+        {
+          "name": "7. Solenoid",
+          "equations": [
+            "B = μ₀nI"
+          ]
+        },
+        {
+          "name": "8. At the End of Solenoid",
+          "equations": [
+            "B = (1/2)μ₀nI"
+          ]
+        },
+        {
+          "name": "9. Toroid",
+          "equations": [
+            "B = μ₀nI"
+          ]
+        },
+        {
+          "name": "10. Magnetic Force",
+          "equations": [
+            "F = qvBsinθ"
+          ]
+        },
+        {
+          "name": "11. Electric Force",
+          "equations": [
+            "F = qE"
+          ]
+        },
+        {
+          "name": "12. Radius of Circular Path",
+          "equations": [
+            "R = mv/(qB)"
+          ]
+        },
+        {
+          "name": "13. Frequency of Revolution",
+          "equations": [
+            "f = qB/(2πm)",
+            "T = 2πm/(qB)"
+          ]
+        },
+        {
+          "name": "14. Pitch",
+          "equations": [
+            "p = vcosθ·T"
+          ]
+        },
+        {
+          "name": "15. Speed of Charged Particle",
+          "equations": [
+            "v = √(2eV/m)"
+          ]
+        },
+        {
+          "name": "16. Cyclotron",
+          "equations": [
+            "K = q²B²R²/(2m)"
+          ]
+        },
+        {
+          "name": "17. Force on Conductor",
+          "equations": [
+            "F = I(l × B)"
+          ]
+        },
+        {
+          "name": "18. Force per Unit Length",
+          "equations": [
+            "f = μ₀I₁I₂/(2πr)"
+          ]
+        },
+        {
+          "name": "19. Torque",
+          "equations": [
+            "τ = NIABsinθ",
+            "τ = mBsinθ"
+          ]
+        },
+        {
+          "name": "20. Moving Coil Galvanometer",
+          "equations": [
+            "I = kθ/(NBA)"
+          ]
+        },
+        {
+          "name": "21. Figure of Merit",
+          "equations": [
+            "G = I/θ = k/(NBA)"
+          ]
+        },
+        {
+          "name": "22. Current Sensitivity",
+          "equations": [
+            "S = NAB/k"
+          ]
+        },
+        {
+          "name": "23. Voltage Sensitivity",
+          "equations": [
+            "V_s = NAB/(kR)"
+          ]
+        },
+        {
+          "name": "24. Galvanometer to Ammeter",
+          "equations": [
+            "R_s = I_gR_g/(I-I_g)"
+          ]
+        },
+        {
+          "name": "25. Galvanometer to Voltmeter",
+          "equations": [
+            "R = V/I_g - R_g"
+          ]
+        },
+        {
+          "name": "1. Magnetic Dipole Moment",
+          "equations": [
+            "m = q_m × 2l"
+          ]
+        },
+        {
+          "name": "2. Coulomb's Law (Magnetism)",
+          "equations": [
+            "F = (μ₀/4π) × (q_m1 × q_m2)/r²"
+          ]
+        },
+        {
+          "name": "3. Bar Magnet",
+          "equations": [
+            "B_axis = (μ₀/4π) × (2m/r³)",
+            "B_equa = (μ₀/4π) × (m/r³)"
+          ]
+        },
+        {
+          "name": "4. Torque (Bar Magnet)",
+          "equations": [
+            "τ = mBsinθ"
+          ]
+        },
+        {
+          "name": "5. Work/Energy",
+          "equations": [
+            "U = -mB(cosθ₂ - cosθ₁)"
+          ]
+        },
+        {
+          "name": "6. Magnetic Moment",
+          "equations": [
+            "m = NIA"
+          ]
+        },
+        {
+          "name": "7. Orbital Magnetic Moment",
+          "equations": [
+            "μ_l = evr/2",
+            "μ_l = eL/(2m_e)",
+            "μ_l = neh/(4πm_e)"
+          ]
+        },
+        {
+          "name": "8. Earth's Magnetic Field",
+          "equations": [
+            "tanδ = B_v/B_h"
+          ]
+        },
+        {
+          "name": "9. Magnetization",
+          "equations": [
+            "M = m/V",
+            "M = χH"
+          ]
+        },
+        {
+          "name": "10. Curie's Law",
+          "equations": [
+            "χ_m = C/T",
+            "μ_r = 1 + χ_m"
+          ]
+        },
+        {
+          "name": "11. Magnetic Field",
+          "equations": [
+            "B = μ₀(H + M)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "EMI, AC & EM Waves",
+      "formulas": [
+        {
+          "name": "1. Magnetic Flux",
+          "equations": [
+            "φ = BAcosθ"
+          ]
+        },
+        {
+          "name": "2. Induced EMF",
+          "equations": [
+            "ξ = -N(dφ/dt)"
+          ]
+        },
+        {
+          "name": "3. Induced Current",
+          "equations": [
+            "I = ξ/R"
+          ]
+        },
+        {
+          "name": "4. Motional EMF",
+          "equations": [
+            "ξ = Blv"
+          ]
+        },
+        {
+          "name": "5. Rotating Rod EMF",
+          "equations": [
+            "ξ = (1/2)Bωl²"
+          ]
+        },
+        {
+          "name": "6. Rotating Coil",
+          "equations": [
+            "e = e₀sinωt",
+            "e₀ = ωNAB"
+          ]
+        },
+        {
+          "name": "7. Self Induction",
+          "equations": [
+            "φ = LI"
+          ]
+        },
+        {
+          "name": "8. Self Induced EMF",
+          "equations": [
+            "ξ = -L(di/dt)"
+          ]
+        },
+        {
+          "name": "9. Mutual Induction",
+          "equations": [
+            "φ = MI"
+          ]
+        },
+        {
+          "name": "10. Self Induction of Solenoid",
+          "equations": [
+            "L = μ₀N²A/l"
+          ]
+        },
+        {
+          "name": "11. Mutual Induction",
+          "equations": [
+            "M = μ₀N₁N₂A/l"
+          ]
+        },
+        {
+          "name": "12. Instantaneous Value AC",
+          "equations": [
+            "I = I₀sinωt"
+          ]
+        },
+        {
+          "name": "13. Average Value over Half Cycle",
+          "equations": [
+            "I_avg = 2I₀/π"
+          ]
+        },
+        {
+          "name": "14. Effective Value or RMS Value",
+          "equations": [
+            "I_RMS = I₀/√2"
+          ]
+        },
+        {
+          "name": "15. Inductive Reactance",
+          "equations": [
+            "X_L = 2πfL"
+          ]
+        },
+        {
+          "name": "16. Capacitive Reactance",
+          "equations": [
+            "X_C = 1/(2πfC)"
+          ]
+        },
+        {
+          "name": "17. Impedance",
+          "equations": [
+            "Z = √[R² + (X_L - X_C)²]"
+          ]
+        },
+        {
+          "name": "18. Phase Angle",
+          "equations": [
+            "tanφ = (X_L - X_C)/R"
+          ]
+        },
+        {
+          "name": "19. Q Factor",
+          "equations": [
+            "Q = ωL/R"
+          ]
+        },
+        {
+          "name": "20. Average Power",
+          "equations": [
+            "P_avg = e_rms × i_rms × cosφ"
+          ]
+        },
+        {
+          "name": "21. Energy Stored in Inductor",
+          "equations": [
+            "U = (1/2)LI²"
+          ]
+        },
+        {
+          "name": "22. Energy Stored in Capacitor",
+          "equations": [
+            "U = (1/2)CV²"
+          ]
+        },
+        {
+          "name": "23. At Resonance",
+          "equations": [
+            "X_L = X_C",
+            "f_r = 1/(2π√(LC))"
+          ]
+        },
+        {
+          "name": "24. Transformer",
+          "equations": [
+            "N₂/N₁ = V₂/V₁ = I₁/I₂"
+          ]
+        },
+        {
+          "name": "25. Displacement Current",
+          "equations": [
+            "I_D = ε₀(dφ/dt)",
+            "I_D = ε₀A(dE/dt)",
+            "I_D = C(dV/dt)"
+          ]
+        },
+        {
+          "name": "26. Maxwell Ampere Circuital Law",
+          "equations": [
+            "∫B·dl = μ₀(I_C + I_D)"
+          ]
+        },
+        {
+          "name": "27. Electromagnetic Wave",
+          "equations": [
+            "E_y = E₀sin(kx - ωt)",
+            "B_z = B₀sin(kx - ωt)"
+          ]
+        },
+        {
+          "name": "28. Average Density of EM Wave",
+          "equations": [
+            "u_avg = (1/2)ε₀E²_rms + B²_rms/(2μ₀)"
+          ]
+        },
+        {
+          "name": "29. Momentum & Intensity",
+          "equations": [
+            "p = U/c",
+            "I = ε₀E²_rms × c"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ray Optics",
+      "formulas": [
+        {
+          "name": "1. Spherical Mirror",
+          "equations": [
+            "f = R/2"
+          ]
+        },
+        {
+          "name": "2. Mirror Formula",
+          "equations": [
+            "1/f = 1/v + 1/u",
+            "m = -v/u"
+          ]
+        },
+        {
+          "name": "3. Refraction",
+          "equations": [
+            "μ = sini/sinr",
+            "μ = v₁/v₂",
+            "μ = λ₁/λ₂"
+          ]
+        },
+        {
+          "name": "4. Lateral Shift",
+          "equations": [
+            "x = t·sin(i-r)/cosr"
+          ]
+        },
+        {
+          "name": "5. Real Depth & Apparent Depth",
+          "equations": [
+            "μ = RD/AD",
+            "shift = t(1 - 1/μ)"
+          ]
+        },
+        {
+          "name": "6. Critical Angle",
+          "equations": [
+            "μ = 1/sin(i_c)"
+          ]
+        },
+        {
+          "name": "7. Refraction at Spherical Surface",
+          "equations": [
+            "μ₂/v - μ₁/u = (μ₂-μ₁)/R"
+          ]
+        },
+        {
+          "name": "8. Power Factor",
+          "equations": [
+            "(μ₂-μ₁)/R"
+          ]
+        },
+        {
+          "name": "9. Lens Maker's Formula",
+          "equations": [
+            "1/f = [(μ₂-μ₁)/μ₁][1/R₁ - 1/R₂]"
+          ]
+        },
+        {
+          "name": "10. Lens Formula",
+          "equations": [
+            "1/f = 1/v - 1/u",
+            "m = v/u"
+          ]
+        },
+        {
+          "name": "11. Power",
+          "equations": [
+            "P = 1/f"
+          ]
+        },
+        {
+          "name": "12. Combination of Lenses",
+          "equations": [
+            "1/F = 1/f₁ + 1/f₂"
+          ]
+        },
+        {
+          "name": "13. Refraction Through Prism",
+          "equations": [
+            "A + δ = i + r"
+          ]
+        },
+        {
+          "name": "14. Prism Formula",
+          "equations": [
+            "μ = sin[(A+δ_m)/2] / sin(A/2)"
+          ]
+        },
+        {
+          "name": "15. Thin Prism",
+          "equations": [
+            "δ = (μ-1)A"
+          ]
+        },
+        {
+          "name": "16. Angular Dispersion",
+          "equations": [
+            "δ_v - δ_r = (μ_v - μ_r)A"
+          ]
+        },
+        {
+          "name": "17. Dispersive Power",
+          "equations": [
+            "ω = (δ_v - δ_r)/δ",
+            "ω = (μ_v - μ_r)/(μ-1)"
+          ]
+        },
+        {
+          "name": "18. Mean Deviation",
+          "equations": [
+            "δ = (δ_v + δ_r)/2"
+          ]
+        },
+        {
+          "name": "19. Mean Refractive Index",
+          "equations": [
+            "μ = (μ_v + μ_r)/2"
+          ]
+        },
+        {
+          "name": "20. Simple Microscope",
+          "equations": [
+            "m = 1 + D/f",
+            "m = D/f"
+          ]
+        },
+        {
+          "name": "21. Compound Microscope",
+          "equations": [
+            "m = (v₀/u₀)(1 + D/f_e)",
+            "m = (L/f₀)(1 + D/f_e)"
+          ]
+        },
+        {
+          "name": "22. At Infinity",
+          "equations": [
+            "m = (v₀/u₀)(D/f_e)",
+            "m = (L/f₀)(D/f_e)"
+          ]
+        },
+        {
+          "name": "23. Telescope",
+          "equations": [
+            "m = (f₀/f_e)(1 + f_e/D)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wave Optics",
+      "formulas": [
+        {
+          "name": "1. Resultant Amplitude",
+          "equations": [
+            "A = √(A₁² + A₂² + 2A₁A₂cosφ)"
+          ]
+        },
+        {
+          "name": "2. Intensity",
+          "equations": [
+            "I = I₁ + I₂ + 2√(I₁I₂)cosφ"
+          ]
+        },
+        {
+          "name": "3. Resultant Intensity",
+          "equations": [
+            "I = 4I₀cos²(φ/2)"
+          ]
+        },
+        {
+          "name": "4. Interference",
+          "equations": [
+            "xd/D = nλ (bright bands)",
+            "xd/D = (2n-1)λ/2 (dark bands)"
+          ]
+        },
+        {
+          "name": "5. Fringe Width",
+          "equations": [
+            "β = λD/d"
+          ]
+        },
+        {
+          "name": "6. Angular Position",
+          "equations": [
+            "θ = nλ/d",
+            "θ = (2n-1)λ/(2d)"
+          ]
+        },
+        {
+          "name": "7. Maxima Minima Intensity",
+          "equations": [
+            "I_max/I_min = (a₁+a₂)²/(a₁-a₂)²"
+          ]
+        },
+        {
+          "name": "8. Thin Films Reflected System (Bright)",
+          "equations": [
+            "2μtcosr = (2n+1)λ/2"
+          ]
+        },
+        {
+          "name": "9. Thin Films Reflected System (Dark)",
+          "equations": [
+            "2μtcosr = nλ"
+          ]
+        },
+        {
+          "name": "10. Thin Films Transmitted System (Bright)",
+          "equations": [
+            "2μtcosr = nλ"
+          ]
+        },
+        {
+          "name": "11. Thin Films Transmitted System (Dark)",
+          "equations": [
+            "2μtcosr = (2n+1)λ/2"
+          ]
+        },
+        {
+          "name": "12. Displacement of Interference Pattern",
+          "equations": [
+            "path diff = (μ-1)t",
+            "Δx = (β/λ)(μ-1)t",
+            "Δx = (D/d)(μ-1)t"
+          ]
+        },
+        {
+          "name": "13. Diffraction",
+          "equations": [
+            "dsinθ = nλ (minima)",
+            "dsinθ = (2n+1)λ/2 (maxima)"
+          ]
+        },
+        {
+          "name": "14. Central Width",
+          "equations": [
+            "2β = 2λD/d"
+          ]
+        },
+        {
+          "name": "15. Circular Aperture",
+          "equations": [
+            "θ = 1.22λ/d"
+          ]
+        },
+        {
+          "name": "16. Linear Spread",
+          "equations": [
+            "x = Dθ"
+          ]
+        },
+        {
+          "name": "17. Areal Spread",
+          "equations": [
+            "x² = (Dθ)²"
+          ]
+        },
+        {
+          "name": "18. Fresnel Distance",
+          "equations": [
+            "Z_f = d²/λ"
+          ]
+        },
+        {
+          "name": "19. Fresnel Zone",
+          "equations": [
+            "d_f = √(λD)"
+          ]
+        },
+        {
+          "name": "20. Resolving Limit - Telescope",
+          "equations": [
+            "dθ = 1.22λ/D"
+          ]
+        },
+        {
+          "name": "20. Resolving Limit - Microscope",
+          "equations": [
+            "d_min = λ/(2μsinθ)"
+          ]
+        },
+        {
+          "name": "21. Malus Law",
+          "equations": [
+            "I = I₀cos²θ"
+          ]
+        },
+        {
+          "name": "22. Brewster's Law",
+          "equations": [
+            "μ = tan(i_p)"
+          ]
+        },
+        {
+          "name": "23. Doppler Effect",
+          "equations": [
+            "Δν/ν = -V_rad/c",
+            "Δλ/λ = V_rad/c"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dual Nature of Matter",
+      "formulas": [
+        {
+          "name": "1. Energy of Photon",
+          "equations": [
+            "E = hν"
+          ]
+        },
+        {
+          "name": "2. Momentum",
+          "equations": [
+            "p = h/λ"
+          ]
+        },
+        {
+          "name": "3. Mass of Photon",
+          "equations": [
+            "m = hν/c²"
+          ]
+        },
+        {
+          "name": "4. Work Function",
+          "equations": [
+            "φ₀ = hν₀",
+            "φ₀ = hc/λ₀"
+          ]
+        },
+        {
+          "name": "5. Einstein's Equation",
+          "equations": [
+            "K_max = hν - hν₀"
+          ]
+        },
+        {
+          "name": "6. Intensity of Radiation",
+          "equations": [
+            "I = Energy/(area × time)"
+          ]
+        },
+        {
+          "name": "7. Kinetic Energy",
+          "equations": [
+            "K = p²/(2m)"
+          ]
+        },
+        {
+          "name": "8. de-Broglie Wavelength for Electron",
+          "equations": [
+            "λ = h/√(2mK)",
+            "λ = 1.22/√(2meV)"
+          ]
+        },
+        {
+          "name": "9. Bragg's Law",
+          "equations": [
+            "2dsinθ = nλ"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Atoms",
+      "formulas": [
+        {
+          "name": "1. K.E. of Alpha Particle",
+          "equations": [
+            "K = (1/4πε₀) × (2Ze²/r₀)"
+          ]
+        },
+        {
+          "name": "2. Impact Parameter",
+          "equations": [
+            "b = (1/4πε₀) × (Ze²cot(θ/2)/K)"
+          ]
+        },
+        {
+          "name": "3. Bohr's Postulates",
+          "equations": [
+            "mv²/r = (1/4πε₀) × (e²/r²)",
+            "mvr = nh/(2π)",
+            "hν = E_i - E_f"
+          ]
+        },
+        {
+          "name": "4. Radius of Bohr Orbit",
+          "equations": [
+            "r = ε₀n²h²/(πme²)"
+          ]
+        },
+        {
+          "name": "5. Kinetic Energy",
+          "equations": [
+            "K = (1/8πε₀) × (Ze²/r)"
+          ]
+        },
+        {
+          "name": "6. Potential Energy",
+          "equations": [
+            "P.E. = -(1/4πε₀) × (Ze²/r)"
+          ]
+        },
+        {
+          "name": "7. Total Energy",
+          "equations": [
+            "E_n = -me⁴/(8ε₀²n²h²)",
+            "E_n = -Rhc/n²",
+            "E_n = -13.6eV/n²",
+            "K.E. = -E",
+            "P.E. = 2K.E."
+          ]
+        },
+        {
+          "name": "8. Wavelength of Transition",
+          "equations": [
+            "1/λ = R[1/n_f² - 1/n_i²]"
+          ]
+        },
+        {
+          "name": "9. Ionization Potential",
+          "equations": [
+            "IP = -13.6/n²"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nuclei",
+      "formulas": [
+        {
+          "name": "1. Einstein's Equation",
+          "equations": [
+            "E = mc²"
+          ]
+        },
+        {
+          "name": "2. Nuclear Radius",
+          "equations": [
+            "R = R₀A^(1/3)"
+          ]
+        },
+        {
+          "name": "3. Mass Defect",
+          "equations": [
+            "Δm = [Zm_p + (A-Z)m_n - m_N]"
+          ]
+        },
+        {
+          "name": "4. Binding Energy",
+          "equations": [
+            "B.E. = Δmc²"
+          ]
+        },
+        {
+          "name": "5. Radioactive Decay",
+          "equations": [
+            "N = N₀e^(-λt)",
+            "T = 0.693/λ",
+            "mean life = 1/λ"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Semiconductor & Communication",
+      "formulas": [
+        {
+          "name": "1. Intrinsic Semiconductor",
+          "equations": [
+            "n_e = n_h = n_i"
+          ]
+        },
+        {
+          "name": "2. At Equilibrium",
+          "equations": [
+            "n_e × n_h = n_i²"
+          ]
+        },
+        {
+          "name": "3. Static Resistance",
+          "equations": [
+            "r = V/I"
+          ]
+        },
+        {
+          "name": "4. Dynamic Resistance",
+          "equations": [
+            "r_d = ΔV/ΔI"
+          ]
+        },
+        {
+          "name": "5. Half Wave Rectifier",
+          "equations": [
+            "I_dc = I₀/π"
+          ]
+        },
+        {
+          "name": "6. Full Wave Rectifier",
+          "equations": [
+            "I_dc = 2I₀/π"
+          ]
+        },
+        {
+          "name": "7. Zener Regulator",
+          "equations": [
+            "R = (V_i - V_z)/I"
+          ]
+        },
+        {
+          "name": "8. Transistors",
+          "equations": [
+            "I_E = I_C + I_B"
+          ]
+        },
+        {
+          "name": "9. CE Amplifier - Current Gain",
+          "equations": [
+            "β_dc = I_C/I_B",
+            "β_ac = ΔI_C/ΔI_B"
+          ]
+        },
+        {
+          "name": "9. CE Amplifier - Voltage Gain",
+          "equations": [
+            "A_v = β_ac × R_c/R_b"
+          ]
+        },
+        {
+          "name": "9. CE Amplifier - Power Gain",
+          "equations": [
+            "A_p = β_ac² × R_c/R_b"
+          ]
+        },
+        {
+          "name": "9. CE Amplifier - Transconductance",
+          "equations": [
+            "g_m = ΔI_c/ΔV_be"
+          ]
+        },
+        {
+          "name": "10. Relation between α and β",
+          "equations": [
+            "α = β/(1+β)"
+          ]
+        },
+        {
+          "name": "11. Modulation Factor",
+          "equations": [
+            "μ = A_m/A_c",
+            "μ = (A_max - A_min)/(A_max + A_min) × 100%"
+          ]
+        },
+        {
+          "name": "12. Modulating Signal",
+          "equations": [
+            "m(t) = A_m × sinω_m × t"
+          ]
+        },
+        {
+          "name": "13. Carrier Signal",
+          "equations": [
+            "c(t) = A_c × sinω_c × t"
+          ]
+        },
+        {
+          "name": "14. A.M. Wave",
+          "equations": [
+            "c_m(t) = A_c×sinω_c×t - (μA_c/2)×cos(ω_c+ω_m)t + (μA_c/2)×cos(ω_c-ω_m)t"
+          ]
+        },
+        {
+          "name": "15. Maximum Distance",
+          "equations": [
+            "d_M = √(2Rh_T) + √(2Rh_R)"
+          ]
+        }
+      ]
+    }
+  ],
+  "class11": [
+    {
+      "title": "Kinematics",
+      "formulas": [
+        {
+          "name": "1. Average Speed/Velocity - Equal Distance",
+          "equations": [
+            "v_avg = 2v₁v₂/(v₁+v₂)"
+          ]
+        },
+        {
+          "name": "2. Average Speed/Velocity - Equal Time",
+          "equations": [
+            "v_avg = (v₁+v₂)/2"
+          ]
+        },
+        {
+          "name": "3. Average Over Time",
+          "equations": [
+            "v_avg = ∫v dt / ∫dt"
+          ]
+        },
+        {
+          "name": "4. Acceleration",
+          "equations": [
+            "a = dv/dt = d²s/dt²"
+          ]
+        },
+        {
+          "name": "5. Kinematic Equations",
+          "equations": [
+            "v = u + at",
+            "s = ut + (1/2)at²",
+            "v² = u² + 2as"
+          ]
+        },
+        {
+          "name": "6. Free Fall Bodies",
+          "equations": [
+            "v = √(u² + 2gh)",
+            "v = √(2gh)"
+          ]
+        },
+        {
+          "name": "7. Particle Accelerates for t₁ and Decelerates for t₂",
+          "equations": [
+            "v_max = at₁ = a't₂"
+          ]
+        },
+        {
+          "name": "8. Distance Travelled in nth Second",
+          "equations": [
+            "S_n = u + a(2n-1)/2"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Equation of Trajectory",
+          "equations": [
+            "y = xtanθ - gx²/(2u²cos²θ)"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Time of Flight",
+          "equations": [
+            "T = 2usinθ/g"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Range",
+          "equations": [
+            "R = u²sin2θ/g"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Maximum Height",
+          "equations": [
+            "H = u²sin²θ/(2g)"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Maximum Range",
+          "equations": [
+            "R_max = u²/g at θ = 45°"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Two Angles",
+          "equations": [
+            "For θ and 90°-θ, Range is same",
+            "T₁T₂ = 2H/g"
+          ]
+        },
+        {
+          "name": "9. Projectile Motion - Height at Time",
+          "equations": [
+            "h = (1/2)g(t₁×t₂)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Laws of Motion",
+      "formulas": [
+        {
+          "name": "1. Newton's First Law",
+          "equations": [
+            "∑F = 0 (body is in equilibrium - dynamic or static)"
+          ]
+        },
+        {
+          "name": "2. Newton's Second Law",
+          "equations": [
+            "∑F = ma",
+            "F = dp/dt"
+          ]
+        },
+        {
+          "name": "3. Newton's Third Law",
+          "equations": [
+            "F_action = -F_reaction (forces act on different bodies)"
+          ]
+        },
+        {
+          "name": "4. Friction",
+          "equations": [
+            "f = μN",
+            "f_s(max) = μ_sN",
+            "f_k = μ_kN"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Work, Energy & Power",
+      "formulas": [
+        {
+          "name": "1. Work",
+          "equations": [
+            "W = ∫F·ds",
+            "W = Fscosθ"
+          ]
+        },
+        {
+          "name": "2. Work Energy Theorem",
+          "equations": [
+            "W_net = ΔKE"
+          ]
+        },
+        {
+          "name": "3. Work by Conservative Forces",
+          "equations": [
+            "W = -ΔPE",
+            "W = ∫F·dr"
+          ]
+        },
+        {
+          "name": "4. Potential Energy",
+          "equations": [
+            "PE = mgh (gravitational)"
+          ]
+        },
+        {
+          "name": "5. Potential Energy of Spring",
+          "equations": [
+            "PE = (1/2)kx²"
+          ]
+        },
+        {
+          "name": "6. P.E. at Height h",
+          "equations": [
+            "PE = mgh"
+          ]
+        },
+        {
+          "name": "7. Mechanical Energy",
+          "equations": [
+            "E = KE + PE"
+          ]
+        },
+        {
+          "name": "8. Power",
+          "equations": [
+            "P = W/t",
+            "P = F·v"
+          ]
+        },
+        {
+          "name": "9. Motion in Vertical Circle",
+          "equations": [
+            "v_bottom = √(5gR)",
+            "v_top = √(gR)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Center of Mass & Collision",
+      "formulas": [
+        {
+          "name": "1. Center of Mass",
+          "equations": [
+            "x_CM = ∑m_ix_i / ∑m_i",
+            "x_CM = ∫x dm / ∫dm"
+          ]
+        },
+        {
+          "name": "2. COM - Two Masses",
+          "equations": [
+            "x_CM = (m₁x₁ + m₂x₂)/(m₁+m₂)"
+          ]
+        },
+        {
+          "name": "2. COM - Right Circular Cone",
+          "equations": [
+            "h/4 from base"
+          ]
+        },
+        {
+          "name": "2. COM - Solid Cone",
+          "equations": [
+            "h/4 from base"
+          ]
+        },
+        {
+          "name": "2. COM - Uniform Arc",
+          "equations": [
+            "x_CM = Rsinθ/θ"
+          ]
+        },
+        {
+          "name": "2. COM - Uniform Sector",
+          "equations": [
+            "x_CM = (2R/3) × (sinθ/θ)"
+          ]
+        },
+        {
+          "name": "2. COM - Hemispherical Shell",
+          "equations": [
+            "x_CM = R/2"
+          ]
+        },
+        {
+          "name": "2. COM - Solid Hemisphere",
+          "equations": [
+            "x_CM = 3R/8"
+          ]
+        },
+        {
+          "name": "3. Motion of Center of Mass",
+          "equations": [
+            "v_CM = ∑m_iv_i / ∑m_i",
+            "a_CM = ∑m_ia_i / ∑m_i"
+          ]
+        },
+        {
+          "name": "4. Conservation of Momentum",
+          "equations": [
+            "∑P_initial = ∑P_final",
+            "m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂"
+          ]
+        },
+        {
+          "name": "5. Impulse",
+          "equations": [
+            "J = ∫F dt",
+            "J = Δp",
+            "J = Area under F-t curve"
+          ]
+        },
+        {
+          "name": "6. Variable Mass System",
+          "equations": [
+            "F_ext = v_rel(dm/dt) + m(dv/dt)"
+          ]
+        },
+        {
+          "name": "7. Rocket Equation",
+          "equations": [
+            "v - u = v_rel × ln(m₀/m)"
+          ]
+        },
+        {
+          "name": "8. Collision",
+          "equations": [
+            "Elastic: e = 1",
+            "Inelastic: e = 0",
+            "0 ≤ e ≤ 1"
+          ]
+        },
+        {
+          "name": "9. Coefficient of Restitution",
+          "equations": [
+            "e = (v₂-v₁)/(u₁-u₂)",
+            "e = √(h₂/h₁)"
+          ]
+        },
+        {
+          "name": "10. Loss of Kinetic Energy",
+          "equations": [
+            "ΔKE = (1/2)μ(u₁-u₂)²(1-e²)",
+            "μ = m₁m₂/(m₁+m₂)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rotational Motion",
+      "formulas": [
+        {
+          "name": "1. Rigid Body",
+          "equations": [
+            "Distance between constituent parts remains unchanged"
+          ]
+        },
+        {
+          "name": "2. Equations of Motion - Angular",
+          "equations": [
+            "ω = ω₀ + αt",
+            "θ = ω₀t + (1/2)αt²",
+            "ω² = ω₀² + 2αθ"
+          ]
+        },
+        {
+          "name": "3. Linear and Angular Relations",
+          "equations": [
+            "v = rω",
+            "a = rα",
+            "s = rθ"
+          ]
+        },
+        {
+          "name": "4. Kinetic Energy",
+          "equations": [
+            "KE = (1/2)Iω²",
+            "KE_total = (1/2)Iω² + (1/2)Mv²_CM"
+          ]
+        },
+        {
+          "name": "5. Moment of Inertia",
+          "equations": [
+            "I = ∑m_ir_i²",
+            "I = ∫r² dm"
+          ]
+        },
+        {
+          "name": "6. Radius of Gyration",
+          "equations": [
+            "k = √(I/M)"
+          ]
+        },
+        {
+          "name": "7. Parallel Axis Theorem",
+          "equations": [
+            "I = I_CM + Md²"
+          ]
+        },
+        {
+          "name": "8. Perpendicular Axis Theorem",
+          "equations": [
+            "I_z = I_x + I_y"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Ring",
+          "equations": [
+            "I = MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Disc",
+          "equations": [
+            "I = (1/2)MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Hollow Cylinder",
+          "equations": [
+            "I = MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Solid Cylinder",
+          "equations": [
+            "I = (1/2)MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Rod (about center)",
+          "equations": [
+            "I = ML²/12"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Rectangle Lamina",
+          "equations": [
+            "I = M(l²+b²)/12"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Triangle Lamina",
+          "equations": [
+            "I = Mh²/18"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Solid Sphere",
+          "equations": [
+            "I = (2/5)MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Hollow Sphere",
+          "equations": [
+            "I = (2/3)MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Hollow Cone",
+          "equations": [
+            "I = (1/2)MR²"
+          ]
+        },
+        {
+          "name": "Moment of Inertia - Solid Cone",
+          "equations": [
+            "I = (3/10)MR²"
+          ]
+        },
+        {
+          "name": "9. Torque",
+          "equations": [
+            "τ = r × F",
+            "τ = Iα"
+          ]
+        },
+        {
+          "name": "10. Work Done",
+          "equations": [
+            "W = ∫τ dθ",
+            "W = (1/2)I(ω₂² - ω₁²)"
+          ]
+        },
+        {
+          "name": "11. Power",
+          "equations": [
+            "P = τω"
+          ]
+        },
+        {
+          "name": "12. Angular Momentum",
+          "equations": [
+            "L = Iω",
+            "L = r × p"
+          ]
+        },
+        {
+          "name": "13. Relation of Angular Momentum and Torque",
+          "equations": [
+            "τ = dL/dt"
+          ]
+        },
+        {
+          "name": "14. Relation of Torque and Angular Acceleration",
+          "equations": [
+            "τ = Iα"
+          ]
+        },
+        {
+          "name": "15. Rolling Without Slipping",
+          "equations": [
+            "v = rω",
+            "a = rα"
+          ]
+        },
+        {
+          "name": "15. Acceleration of CM on Inclined Plane",
+          "equations": [
+            "a = gsinθ/(1 + I/(MR²))"
+          ]
+        },
+        {
+          "name": "15. Velocity of CM",
+          "equations": [
+            "v = √[2gh/(1 + I/(MR²))]"
+          ]
+        },
+        {
+          "name": "15. Minimum Friction",
+          "equations": [
+            "f_min = Mgsinθ/(1 + MR²/I)"
+          ]
+        },
+        {
+          "name": "15. Coefficient of Rolling Friction",
+          "equations": [
+            "μ_r = tanθ/(1 + MR²/I)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Gravitation",
+      "formulas": [
+        {
+          "name": "1. Newton's Law of Gravitation",
+          "equations": [
+            "F = GMm/r²",
+            "G = 6.67 × 10⁻¹¹ Nm²/kg²"
+          ]
+        },
+        {
+          "name": "2. Gravitational Intensity",
+          "equations": [
+            "E = F/m",
+            "E = GM/r²"
+          ]
+        },
+        {
+          "name": "3. Gravitational Potential",
+          "equations": [
+            "V = -GM/r"
+          ]
+        },
+        {
+          "name": "4. Gravitational Potential Energy",
+          "equations": [
+            "U = -GMm/r"
+          ]
+        },
+        {
+          "name": "5. Point Mass Lies Inside",
+          "equations": [
+            "F = GMmr/R³"
+          ]
+        },
+        {
+          "name": "6. Gravitational Self-Energy - Shell",
+          "equations": [
+            "U = -GM²/2R"
+          ]
+        },
+        {
+          "name": "6. Gravitational Self-Energy - Solid Sphere",
+          "equations": [
+            "U = -3GM²/5R"
+          ]
+        },
+        {
+          "name": "7. Escape Velocity",
+          "equations": [
+            "v_e = √(2GM/R)",
+            "v_e = √(2gR)"
+          ]
+        },
+        {
+          "name": "8. Orbital Speed",
+          "equations": [
+            "v₀ = √(GM/r)",
+            "v₀ = √(gR)"
+          ]
+        },
+        {
+          "name": "9. Time Period",
+          "equations": [
+            "T = 2π√(r³/GM)",
+            "T² ∝ r³"
+          ]
+        },
+        {
+          "name": "10. Kepler's First Law",
+          "equations": [
+            "Each planet moves in elliptical orbit with sun at one focus"
+          ]
+        },
+        {
+          "name": "10. Kepler's Second Law",
+          "equations": [
+            "The planet sweeps equal area in equal time interval",
+            "dA/dt = constant"
+          ]
+        },
+        {
+          "name": "10. Kepler's Third Law",
+          "equations": [
+            "T² ∝ r³",
+            "Square of time period ∝ cube of mean distance"
+          ]
+        },
+        {
+          "name": "11. Variation of g - At Surface",
+          "equations": [
+            "g = GM/R²"
+          ]
+        },
+        {
+          "name": "11. Variation of g - At Height h",
+          "equations": [
+            "g' = g/(1 + h/R)²"
+          ]
+        },
+        {
+          "name": "11. Variation of g - At Depth d",
+          "equations": [
+            "g' = g(1 - d/R)"
+          ]
+        },
+        {
+          "name": "11. Variation of g - Due to Latitude",
+          "equations": [
+            "g' = g - Rω²cos²λ"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Elasticity",
+      "formulas": [
+        {
+          "name": "1. Stress",
+          "equations": [
+            "Stress = F/A"
+          ]
+        },
+        {
+          "name": "2. Strain",
+          "equations": [
+            "Strain = ΔL/L (longitudinal)",
+            "Strain = Δθ (shear)"
+          ]
+        },
+        {
+          "name": "3. Modulus of Elasticity",
+          "equations": [
+            "Modulus = Stress/Strain"
+          ]
+        },
+        {
+          "name": "4. Young's Modulus",
+          "equations": [
+            "Y = (F/A)/(ΔL/L)",
+            "Y = (FL)/(AΔL)"
+          ]
+        },
+        {
+          "name": "5. Bulk Modulus",
+          "equations": [
+            "K = -ΔP/(ΔV/V)"
+          ]
+        },
+        {
+          "name": "6. Modulus of Rigidity",
+          "equations": [
+            "η = (F/A)/θ",
+            "η = Shear Stress/Shear Strain"
+          ]
+        },
+        {
+          "name": "7. Potential Energy (Elastic)",
+          "equations": [
+            "U = (1/2) × Stress × Strain × Volume"
+          ]
+        },
+        {
+          "name": "8. Poisson's Ratio",
+          "equations": [
+            "σ = -lateral strain/longitudinal strain"
+          ]
+        },
+        {
+          "name": "9. Relation between Moduli",
+          "equations": [
+            "Y = 2η(1 + σ)",
+            "Y = 3K(1 - 2σ)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fluid Mechanics",
+      "formulas": [
+        {
+          "name": "11. Density of Any Material",
+          "equations": [
+            "ρ = m/V"
+          ]
+        },
+        {
+          "name": "12. Specific Weight",
+          "equations": [
+            "w = ρg"
+          ]
+        },
+        {
+          "name": "13. Relative Density",
+          "equations": [
+            "RD = ρ_substance/ρ_water"
+          ]
+        },
+        {
+          "name": "14. Specific Gravity",
+          "equations": [
+            "SG = Weight in air/(Weight in air - Weight in water)",
+            "SG = ρ_body/ρ_liquid",
+            "SG = Loss of weight in liquid/Loss of weight in water"
+          ]
+        },
+        {
+          "name": "15. Density with Temperature",
+          "equations": [
+            "ρ_t = ρ₀/(1 + γΔT)"
+          ]
+        },
+        {
+          "name": "16. Density of Mixture - Equal Volumes",
+          "equations": [
+            "ρ_mix = (ρ₁ + ρ₂)/2"
+          ]
+        },
+        {
+          "name": "16. Density of Mixture - Equal Masses",
+          "equations": [
+            "1/ρ_mix = (1/ρ₁ + 1/ρ₂)/2"
+          ]
+        },
+        {
+          "name": "17. Pressure",
+          "equations": [
+            "P = F/A",
+            "P = ρgh"
+          ]
+        },
+        {
+          "name": "18. Pascal's Law",
+          "equations": [
+            "P₁ = P₂",
+            "F₁/A₁ = F₂/A₂"
+          ]
+        },
+        {
+          "name": "19. Buoyant Force",
+          "equations": [
+            "F_B = ρVg",
+            "F_B = Weight of displaced fluid"
+          ]
+        },
+        {
+          "name": "20. Apparent Weight",
+          "equations": [
+            "W_app = W - F_B",
+            "W_app = W(1 - ρ_liquid/ρ_body)"
+          ]
+        },
+        {
+          "name": "21. For Two Immiscible Liquids",
+          "equations": [
+            "P = ρ₁gh₁ + ρ₂gh₂"
+          ]
+        },
+        {
+          "name": "22. Fractional Submerged Volume",
+          "equations": [
+            "V_submerged/V_total = ρ_body/ρ_liquid"
+          ]
+        },
+        {
+          "name": "23. Volume of Cavity Inside Metal",
+          "equations": [
+            "V_cavity = V - V'",
+            "V_cavity = V(1 - ρ_avg/ρ_metal)"
+          ]
+        },
+        {
+          "name": "24. Critical Velocity",
+          "equations": [
+            "v_c = Rη/(ρr)"
+          ]
+        },
+        {
+          "name": "25. Equation of Continuity",
+          "equations": [
+            "A₁v₁ = A₂v₂",
+            "Av = constant"
+          ]
+        },
+        {
+          "name": "26. Bernoulli's Equation",
+          "equations": [
+            "P + (1/2)ρv² + ρgh = constant",
+            "P₁ + (1/2)ρv₁² + ρgh₁ = P₂ + (1/2)ρv₂² + ρgh₂"
+          ]
+        },
+        {
+          "name": "27. Venturi Meter - Rate of Flow",
+          "equations": [
+            "v = √[2(P₁-P₂)/ρ]",
+            "v = √[2gh(A₁²/(A₁²-A₂²))]"
+          ]
+        },
+        {
+          "name": "28. Torricelli's Law",
+          "equations": [
+            "v = √(2gh)"
+          ]
+        },
+        {
+          "name": "29. Viscous Force",
+          "equations": [
+            "F = ηA(dv/dx)"
+          ]
+        },
+        {
+          "name": "30. Stokes Law",
+          "equations": [
+            "F = 6πηrv"
+          ]
+        },
+        {
+          "name": "31. Terminal Velocity",
+          "equations": [
+            "v_t = 2r²(ρ-σ)g/(9η)"
+          ]
+        },
+        {
+          "name": "32. Surface Tension",
+          "equations": [
+            "T = F/l",
+            "T = Work/ΔArea"
+          ]
+        },
+        {
+          "name": "33. Rise of Liquid in Capillary",
+          "equations": [
+            "h = 2Tcosθ/(ρgr)"
+          ]
+        },
+        {
+          "name": "34. Liquid Drop",
+          "equations": [
+            "P = 2T/r"
+          ]
+        },
+        {
+          "name": "35. Bubble in Air",
+          "equations": [
+            "P = 4T/r"
+          ]
+        },
+        {
+          "name": "36. Surface Curved in Two Directions",
+          "equations": [
+            "P = T(1/R₁ + 1/R₂)"
+          ]
+        },
+        {
+          "name": "37. Radius of Curvature of Common Surface",
+          "equations": [
+            "1/R = 1/R₁ - 1/R₂"
+          ]
+        },
+        {
+          "name": "38. Radius When Two Bubbles Coalesce",
+          "equations": [
+            "R = √(R₁² + R₂²)"
+          ]
+        },
+        {
+          "name": "39. Work Done in Blowing a Bubble",
+          "equations": [
+            "W = 8πR²T"
+          ]
+        },
+        {
+          "name": "40. Breaking into n Droplets",
+          "equations": [
+            "n = R³/r³"
+          ]
+        },
+        {
+          "name": "41. Increase in Area",
+          "equations": [
+            "ΔA = 4πR²(n^(2/3) - 1)"
+          ]
+        },
+        {
+          "name": "42. Work Done",
+          "equations": [
+            "W = T × ΔA"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heat & Thermodynamics",
+      "formulas": [
+        {
+          "name": "1. Heat Capacity",
+          "equations": [
+            "C = Q/ΔT",
+            "C = mc"
+          ]
+        },
+        {
+          "name": "2. Latent Heat",
+          "equations": [
+            "Q = mL"
+          ]
+        },
+        {
+          "name": "3. Principle of Calorimetry",
+          "equations": [
+            "Heat lost = Heat gained",
+            "m₁c₁ΔT₁ = m₂c₂ΔT₂"
+          ]
+        },
+        {
+          "name": "4. Final Temperature",
+          "equations": [
+            "T_f = (m₁c₁T₁ + m₂c₂T₂)/(m₁c₁ + m₂c₂)"
+          ]
+        },
+        {
+          "name": "5. Conversion Fahrenheit to Celsius",
+          "equations": [
+            "C/5 = (F-32)/9",
+            "F = (9/5)C + 32"
+          ]
+        },
+        {
+          "name": "6. Linear Expansion",
+          "equations": [
+            "ΔL = αLΔT",
+            "L_t = L₀(1 + αΔT)"
+          ]
+        },
+        {
+          "name": "7. Superficial Expansion",
+          "equations": [
+            "ΔA = βAΔT",
+            "β = 2α"
+          ]
+        },
+        {
+          "name": "8. Cubical Expansion",
+          "equations": [
+            "ΔV = γVΔT",
+            "γ = 3α"
+          ]
+        },
+        {
+          "name": "9. Expansion of Liquids",
+          "equations": [
+            "γ_apparent = γ_real - γ_container"
+          ]
+        },
+        {
+          "name": "10. Variation of Density",
+          "equations": [
+            "ρ_t = ρ₀/(1 + γΔT)"
+          ]
+        },
+        {
+          "name": "11. Heat Conduction",
+          "equations": [
+            "Q/t = kA(T₁-T₂)/L"
+          ]
+        },
+        {
+          "name": "12. Rods in Series",
+          "equations": [
+            "Q/t = A(T₁-T₂)/(L₁/k₁ + L₂/k₂)",
+            "1/k_eq = L₁/k₁ + L₂/k₂"
+          ]
+        },
+        {
+          "name": "13. Rods in Parallel",
+          "equations": [
+            "k_eq = (k₁A₁ + k₂A₂)/(A₁ + A₂)"
+          ]
+        },
+        {
+          "name": "14. Thermal Current",
+          "equations": [
+            "I_thermal = Q/t = ΔT/R_thermal"
+          ]
+        },
+        {
+          "name": "15. Boyle's Law",
+          "equations": [
+            "PV = constant (at constant T)",
+            "P₁V₁ = P₂V₂"
+          ]
+        },
+        {
+          "name": "16. Charles Law",
+          "equations": [
+            "V/T = constant (at constant P)",
+            "V₁/T₁ = V₂/T₂"
+          ]
+        },
+        {
+          "name": "17. Gay-Lussac's Law",
+          "equations": [
+            "P/T = constant (at constant V)",
+            "P₁/T₁ = P₂/T₂"
+          ]
+        },
+        {
+          "name": "18. Ideal Gas Equation",
+          "equations": [
+            "PV = nRT",
+            "PV = (m/M)RT",
+            "R = 8.314 J/mol·K"
+          ]
+        },
+        {
+          "name": "19. Mean Velocity",
+          "equations": [
+            "v_mean = √(8RT/πM)",
+            "v_mean = √(8kT/πm)"
+          ]
+        },
+        {
+          "name": "20. Root Mean Square Velocity",
+          "equations": [
+            "v_rms = √(3RT/M)",
+            "v_rms = √(3kT/m)"
+          ]
+        },
+        {
+          "name": "21. Most Probable Speed",
+          "equations": [
+            "v_mp = √(2RT/M)",
+            "v_mp = √(2kT/m)"
+          ]
+        },
+        {
+          "name": "22. Pressure Exerted by Gas",
+          "equations": [
+            "P = (1/3)ρv²_rms",
+            "P = (1/3)nmv²_rms"
+          ]
+        },
+        {
+          "name": "23. Kinetic Energy per Mole",
+          "equations": [
+            "KE = (3/2)RT",
+            "KE = (f/2)RT"
+          ]
+        },
+        {
+          "name": "24. Van der Waals Gas Equation",
+          "equations": [
+            "(P + a/V²)(V - b) = RT"
+          ]
+        },
+        {
+          "name": "25. Mean Free Path",
+          "equations": [
+            "λ = 1/(√2 πnd²)"
+          ]
+        },
+        {
+          "name": "26. Degrees of Freedom",
+          "equations": [
+            "Monoatomic: f = 3",
+            "Diatomic: f = 5",
+            "Polyatomic: f = 6"
+          ]
+        },
+        {
+          "name": "27. Mixture of Non-Reacting Gases - Pressure",
+          "equations": [
+            "P = P₁ + P₂ + P₃ + ..."
+          ]
+        },
+        {
+          "name": "27. Mixture of Non-Reacting Gases - Moles",
+          "equations": [
+            "n = n₁ + n₂ + n₃ + ..."
+          ]
+        },
+        {
+          "name": "27. Mixture of Non-Reacting Gases - Gamma",
+          "equations": [
+            "γ_mix = (n₁γ₁ + n₂γ₂)/(n₁ + n₂)"
+          ]
+        },
+        {
+          "name": "28. First Law of Thermodynamics",
+          "equations": [
+            "ΔQ = ΔU + ΔW",
+            "ΔU = nC_vΔT",
+            "ΔW = PΔV"
+          ]
+        },
+        {
+          "name": "29. Isothermal Process",
+          "equations": [
+            "ΔU = 0",
+            "ΔQ = ΔW",
+            "W = nRT ln(V₂/V₁)",
+            "PV = constant"
+          ]
+        },
+        {
+          "name": "30. Adiabatic Process",
+          "equations": [
+            "ΔQ = 0",
+            "ΔU = -ΔW",
+            "PVᵞ = constant",
+            "TVᵞ⁻¹ = constant"
+          ]
+        },
+        {
+          "name": "31. Isochoric Process",
+          "equations": [
+            "ΔW = 0",
+            "ΔQ = ΔU",
+            "V = constant"
+          ]
+        },
+        {
+          "name": "32. Isobaric Process",
+          "equations": [
+            "P = constant",
+            "ΔQ = nC_pΔT",
+            "ΔW = PΔV"
+          ]
+        },
+        {
+          "name": "33. Gas Equation Relations",
+          "equations": [
+            "C_p - C_v = R",
+            "γ = C_p/C_v",
+            "C_v = R/(γ-1)",
+            "C_p = γR/(γ-1)"
+          ]
+        },
+        {
+          "name": "34. Thermal Radiation",
+          "equations": [
+            "Stefan's Law: E = σAT⁴",
+            "Wien's Law: λ_max × T = constant"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Oscillations",
+      "formulas": [
+        {
+          "name": "1. Restoring Force",
+          "equations": [
+            "F = -kx"
+          ]
+        },
+        {
+          "name": "2. Acceleration",
+          "equations": [
+            "a = -ω²x"
+          ]
+        },
+        {
+          "name": "3. Linear SHM",
+          "equations": [
+            "F = -kx",
+            "a = -ω²x"
+          ]
+        },
+        {
+          "name": "4. Angular SHM",
+          "equations": [
+            "τ = -Cθ",
+            "α = -ω²θ"
+          ]
+        },
+        {
+          "name": "5. Angular Frequency",
+          "equations": [
+            "ω = 2πf = 2π/T",
+            "ω = √(k/m)"
+          ]
+        },
+        {
+          "name": "6. Displacement",
+          "equations": [
+            "x = Asin(ωt + φ)",
+            "x = Acos(ωt + φ)"
+          ]
+        },
+        {
+          "name": "7. Velocity",
+          "equations": [
+            "v = ωAcos(ωt + φ)",
+            "v = ω√(A² - x²)",
+            "v_max = ωA"
+          ]
+        },
+        {
+          "name": "8. Acceleration",
+          "equations": [
+            "a = -ω²Asin(ωt + φ)",
+            "a = -ω²x",
+            "a_max = ω²A"
+          ]
+        },
+        {
+          "name": "9. Time Period",
+          "equations": [
+            "T = 2π/ω",
+            "T = 2π√(m/k)",
+            "T = 2π√(l/g)"
+          ]
+        },
+        {
+          "name": "10. Kinetic Energy",
+          "equations": [
+            "KE = (1/2)mω²(A² - x²)",
+            "KE = (1/2)kA²cos²(ωt)"
+          ]
+        },
+        {
+          "name": "11. Potential Energy",
+          "equations": [
+            "PE = (1/2)kx²",
+            "PE = (1/2)kA²sin²(ωt)"
+          ]
+        },
+        {
+          "name": "12. Springs in Series",
+          "equations": [
+            "1/k_eq = 1/k₁ + 1/k₂"
+          ]
+        },
+        {
+          "name": "13. Springs in Parallel",
+          "equations": [
+            "k_eq = k₁ + k₂"
+          ]
+        },
+        {
+          "name": "14. Two Masses Connected",
+          "equations": [
+            "T = 2π√(μ/k)",
+            "μ = m₁m₂/(m₁+m₂)"
+          ]
+        },
+        {
+          "name": "15. U-Tube",
+          "equations": [
+            "T = 2π√(l/2g)"
+          ]
+        },
+        {
+          "name": "16. Floating Body",
+          "equations": [
+            "T = 2π√(h/g)",
+            "T = 2π√(m/Aρg)"
+          ]
+        },
+        {
+          "name": "17. Simple Pendulum",
+          "equations": [
+            "T = 2π√(l/g)",
+            "T = 2π√(l/(g±a))",
+            "T' = T√[(R+h)/R]"
+          ]
+        },
+        {
+          "name": "18. Conical Pendulum",
+          "equations": [
+            "T = 2π√(lcosθ/g)"
+          ]
+        },
+        {
+          "name": "19. Pendulum in Liquid",
+          "equations": [
+            "T' = T√[1/(1-ρ_liquid/ρ_bob)]"
+          ]
+        },
+        {
+          "name": "20. Vertical Oscillation on Wire",
+          "equations": [
+            "T = 2π√(ml/YA)"
+          ]
+        },
+        {
+          "name": "21. Concave Bowl",
+          "equations": [
+            "T = 2π√(R/g)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Waves",
+      "formulas": [
+        {
+          "name": "1. Progressive Wave",
+          "equations": [
+            "y = Asin(kx - ωt)",
+            "y = Asin(ωt - kx)",
+            "y = Acos(kx - ωt)"
+          ]
+        },
+        {
+          "name": "2. Characteristics of Waves",
+          "equations": [
+            "v = fλ",
+            "k = 2π/λ",
+            "ω = 2πf"
+          ]
+        },
+        {
+          "name": "3. Intensity",
+          "equations": [
+            "I = (1/2)ρω²A²v",
+            "I ∝ A²",
+            "I ∝ 1/r²"
+          ]
+        },
+        {
+          "name": "4. Loudness",
+          "equations": [
+            "L = 10 log(I/I₀) dB",
+            "I₀ = 10⁻¹² W/m²"
+          ]
+        },
+        {
+          "name": "5. Velocity of Sound Waves - Solids",
+          "equations": [
+            "v = √(E/ρ)"
+          ]
+        },
+        {
+          "name": "5. Velocity of Sound Waves - Fluids",
+          "equations": [
+            "v = √(K/ρ)"
+          ]
+        },
+        {
+          "name": "5. Velocity of Sound Waves - Gas",
+          "equations": [
+            "v = √(γRT/M)",
+            "v = √(γP/ρ)"
+          ]
+        },
+        {
+          "name": "6. Effect of Temperature",
+          "equations": [
+            "v = v₀√(T/T₀)",
+            "v_t = v₀ + 0.61t"
+          ]
+        },
+        {
+          "name": "7. Effect of Pressure",
+          "equations": [
+            "No effect (v remains constant)"
+          ]
+        },
+        {
+          "name": "8. Effect of Humidity",
+          "equations": [
+            "v increases with humidity"
+          ]
+        },
+        {
+          "name": "9. Interference",
+          "equations": [
+            "Constructive: Path diff = nλ",
+            "Destructive: Path diff = (2n+1)λ/2"
+          ]
+        },
+        {
+          "name": "10. Phase Difference",
+          "equations": [
+            "Δφ = (2π/λ) × path difference"
+          ]
+        },
+        {
+          "name": "11. Beats",
+          "equations": [
+            "Beat frequency = |f₁ - f₂|"
+          ]
+        },
+        {
+          "name": "12. Stationary Wave",
+          "equations": [
+            "y = 2Acos(kx)sin(ωt)"
+          ]
+        },
+        {
+          "name": "13. Velocity in String",
+          "equations": [
+            "v = √(T/μ)",
+            "μ = m/l (mass per unit length)"
+          ]
+        },
+        {
+          "name": "14. Frequency in String",
+          "equations": [
+            "f = (n/2l)√(T/μ)",
+            "n = 1, 2, 3, ..."
+          ]
+        },
+        {
+          "name": "15. Open Ended Tube",
+          "equations": [
+            "f_n = nv/(2L)",
+            "n = 1, 2, 3, ... (all harmonics)"
+          ]
+        },
+        {
+          "name": "16. Closed End Tube",
+          "equations": [
+            "f_n = nv/(4L)",
+            "n = 1, 3, 5, ... (only odd harmonics)"
+          ]
+        },
+        {
+          "name": "17. Resonance Tube",
+          "equations": [
+            "l₁ = λ/4",
+            "l₂ = 3λ/4",
+            "l₂ - l₁ = λ/2"
+          ]
+        },
+        {
+          "name": "18. Doppler Effect - Source Moving Towards Observer",
+          "equations": [
+            "f' = f × v/(v - v_s)"
+          ]
+        },
+        {
+          "name": "18. Doppler Effect - Source Moving Away",
+          "equations": [
+            "f' = f × v/(v + v_s)"
+          ]
+        },
+        {
+          "name": "18. Doppler Effect - Observer Moving Towards Source",
+          "equations": [
+            "f' = f × (v + v_o)/v"
+          ]
+        },
+        {
+          "name": "18. Doppler Effect - Observer Moving Away",
+          "equations": [
+            "f' = f × (v - v_o)/v"
+          ]
+        }
+      ]
+    }
+  ]
+}
